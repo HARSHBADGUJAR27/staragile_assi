@@ -1,0 +1,24 @@
+package Harsh;
+import java.util.Scanner;
+public class Percentagecalculate {
+
+	public static void main(String[] args) {
+		float percentage;
+		float  totalmarks;
+		float marks;
+	Scanner sc =new Scanner(System.in);
+	System.out.println("enter the marks1");
+	 marks =sc.nextInt();
+	 System.out.println("enter the marks2");
+	 marks =sc.nextInt();
+	System.out.println("enter the totalmarks");
+	 totalmarks =sc.nextInt();
+	//int sum=a+b;
+	System.out.println("sum of all number");
+	//System.out.println(sum);
+	System.out.println("percentage is ");
+	 percentage=marks/totalmarks*100;
+	System.out.println(percentage);
+	}
+
+}
